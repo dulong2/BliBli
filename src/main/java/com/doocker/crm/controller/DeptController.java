@@ -10,8 +10,18 @@ import com.doocker.crm.po.Dept;
 import com.doocker.crm.service.DeptService;
 import com.github.pagehelper.PageInfo;
 /**
+<<<<<<< HEAD
+ * 处理部门的控制器---董策改
+ * @author Administrator
+=======
  * 处理部门的控制器
+<<<<<<< HEAD
+ * @author Administrator
+ * 吕航 修改
+=======
  * @author Administrator  dulong 
+>>>>>>> branch 'master' of https://github.com/doockercom/crm.git
+>>>>>>> branch 'master' of https://github.com/doockercom/crm.git
  */
 @Controller
 @RequestMapping("dept")
