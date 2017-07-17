@@ -12,6 +12,7 @@ import com.github.pagehelper.PageInfo;
 /**
  * 处理部门的控制器
  * @author Administrator
+ * 吕航 修改
  */
 @Controller
 @RequestMapping("dept")
