@@ -46,7 +46,9 @@ public class DeptServiceImpl implements DeptService {
 	public Dept getDept(Integer id) {
 		return deptMapper.selectByPrimaryKey(id);
 	}
-
+/**
+ * easyui 的分页接口
+ */
 	@Override
 	public PageInfo<Dept> selectListByPage(String deptName, Integer page, Integer rows) {
 		//example通过DeptExample来动态的增加修改查询条件
@@ -63,5 +65,17 @@ public class DeptServiceImpl implements DeptService {
 		PageInfo<Dept> info = new PageInfo(selectByExample);
 		return info;
 	}
+
+@Override
+public Integer deleteById(Integer id) {
+	
+	return deptMapper.deleteByPrimaryKey(id);
+}
+
+@Override
+public Integer add(Dept dept) {
+	
+	return deptMapper.insert(dept);
+}
 
 }
