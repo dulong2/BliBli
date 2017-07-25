@@ -25,9 +25,10 @@ $(function(){
 	$("#queryDept").click(function(){
 		var deptName = $("#deptName").val();
 		if(deptName){
+			//刷新
 			$('#dg').datagrid({
 				queryParams:{
-					
+					//和list中分页查询的deptname一样 
 					deptname:deptName
 				}
 			});
