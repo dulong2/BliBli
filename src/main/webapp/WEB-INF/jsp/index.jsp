@@ -29,7 +29,7 @@
 									]
 						},{"menuid":"4","icon":"icon-sys","menuname":"教学部",
 							"menus":[{"menuid":"41","menuname":"班级管理","icon":"icon-nav","url":"html/lesson/listLesson.html"},
-									{"menuid":"42","menuname":"课程类型","icon":"icon-nav","url":"html/lesson/listLesson.html"}
+									{"menuid":"42","menuname":"课程类型","icon":"icon-nav","url":"html_edu_listcourse.do"}
 								]
 						},{"menuid":"5","icon":"icon-sys","menuname":"就业部",
 							"menus":[{"menuid":"51","menuname":"就业情况","icon":"icon-nav","url":"html/dept/listDept.html"}
